@@ -1,0 +1,17 @@
+
+program: main_with_sweep.py
+method: grid
+metric:
+  goal: minimize
+  name: time
+parameters:
+  hidden_size:
+    values: [[1024,512]] #[[512,256], [1024,512],[1024,1024],[1024,256], [512,128],[2042,1024],[2042,512],[2042,256]]
+  learning_rate:
+    values: [0.001]
+  num_epochs:
+    values: [7000]
+  batch_size:
+    values: [256]
+  seed:
+    values: [1,2,3,4,5]

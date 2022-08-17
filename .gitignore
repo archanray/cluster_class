@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+**/__pycache__/
+**/save_parted/
+**/saved_models/
+**/saved_outputs/
+**/dataset/
+**/save_temp/
+slurm*.out
